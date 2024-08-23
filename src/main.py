@@ -10,9 +10,9 @@ def operar_carro(carro : Carro):
         op = int(input("Digite as opcoes[1-3]: "))
 
     if op == 1:
-        carro1.ligar()
+        carro.ligar()
     elif op == 2:
-        carro1.desligar()
+        carro.desligar()
     elif op == 3:
         v = float(input("Informe a velocidade: "))
         t = float(input("Informe o tempo: "))
